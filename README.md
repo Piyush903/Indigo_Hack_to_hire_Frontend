@@ -1,3 +1,41 @@
+# Admin Dashboard for Real-Time Flight Status Updates
+
+## Overview
+
+This project is an admin dashboard designed to showcase real-time flight status updates. It allows administrators to manage flight information and automatically notify users about ticket creations and flight status updates. The notifications can be sent via email or SMS based on user preferences.
+
+## Features
+
+- **Real-Time Flight Status Updates:** Display current flight information on the dashboard.
+- **Dynamic Data Management:** CRUD operations for flights, tickets, customers, and airports.
+- **Automatic Notifications:**
+  - **Ticket Creation:** Send an email or SMS to users when a new ticket is created.
+  - **Flight Status Updates:** Notify customers via their preferred method (email or SMS) when the flight status changes, such as delays or cancellations.
+
+## Tech Stack
+
+- **Frontend:**
+  - React
+  - Bootstrap for styling
+  - Axios for API requests
+
+- **Backend:**
+  - Flask
+  - SQLAlchemy for database interactions
+  - CORS for handling cross-origin requests
+  - Flask-Migrate for database migrations
+
+- **Database:**
+  - PostgreSQL
+
+- **Notification Services:**
+  - Gmail SMTP for email notifications
+  - Twilio for SMS notifications
+
+## Images
+![Ticket](https://storage.googleapis.com/image_buck_123/Screenshot%20(18).png)
+![Flights](https://storage.googleapis.com/image_buck_123/Screenshot%20(19).png)
+![Airport](https://storage.googleapis.com/image_buck_123/Screenshot%20(21).png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
